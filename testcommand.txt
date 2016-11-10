@@ -1,1 +1,1 @@
-a=(jag är en stor fjant precis som donald drumpf) ; echo $(IFS=, ; echo "${a[*]}")
+a=(jag är en stor fjant precis som donald drumpf) ; echo "$(IFS=, ; echo "${a[*]}")"
